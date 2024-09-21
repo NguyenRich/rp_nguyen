@@ -10,15 +10,15 @@
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #3b3b6c;
 }
 
 .body{
-    background-color: rgb(90, 92, 92);
+    background-color: #0f0f3d;
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: #11124d;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -26,7 +26,7 @@
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #11124d;
 }
 
 .nbMenuItem{               /* navbar link text properties */
@@ -36,7 +36,7 @@
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #494f90;
 }
 
 .ovPadLeft{
@@ -53,7 +53,11 @@
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #373c76; /*#0096c7*/
+}
+
+.font-body{
+    font-family: Merriweather;
 }
 
 /* ----------------- ID CSS ----------------- */
