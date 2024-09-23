@@ -10,7 +10,7 @@
 }
 
 .authors{
-    background-color: #3b3b6c;
+    background-color: #494f90;
 }
 
 .body{
@@ -48,7 +48,7 @@
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #494f90;
     padding: 1px;
 }
 
@@ -69,6 +69,43 @@
 
 img {
     border-radius: 5%;
+}
+
+.card img {
+    border-radius: 20px;
+}
+
+.nav-item {
+    font-family: Merriweather;
+    color: #FFFFFF;
+}
+
+.table-group-divider, .table-primary, .table-secondary {
+    border: 0.75px solid #9ea0a1;
+}
+
+.table-primary th{
+    background-color: #2a2b68;
+}
+
+tbody th.table-secondary {
+    background-color:#2f3361;
+}
+
+tbody td:nth-child(2) {
+    background-color: #313568;
+}
+
+tbody td:nth-child(3) {
+    background-color: #373c76;
+}
+
+.card {
+    background-color: #313568;
+    color: #FFFFFF;
+    font-family: Merriweather;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 /* ----------------- ID CSS ----------------- */
