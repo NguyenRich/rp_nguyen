@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -22,10 +23,11 @@
 </head>
 
 <body class="body">
-    <div class="container-lg">
+    <div class="main-container">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark nb-background-color text-light" ->
+        <nav class="navbar navbar-expand-lg navbar-dark nb-background-color text-light sticky-top mt-2 rounded-border"
+            ->
             <!-- lg = large breakpoint, navbar-light = make text dark -->
             <div class="container">
                 <a href="index.html" class="navbar-brand">
@@ -36,8 +38,6 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <h1>The Mitigation of Acidification with the Presence of Polysiphonia</h1>
 
                 <!-- Collapsible navbar menu with custom hover underline CSS animation -->
                 <div class="collapse navbar-collapse" id="navmenu">
@@ -57,35 +57,15 @@
             </div>
         </nav>
 
-        <!-- Showcase -->
-        <section class="showcase text-light p-2 text-center font-body">
-            <!-- headerBG = custom CSS BG color, p-2 = padding 2 -->
-            <div class="container">
-                <div class="row">
-                    <div class="p-0 d-flex align-items-center">
-                        <div class="container">
-                            <br>
-                            <h1 class="display-4">The Mitigation of Acidification with the Presence of
-                                <em>Polysiphonia</em></h1>
-                            <!-- display-4 makes the h1 stand out -->
-                            <hr>
-                            <h2>R. Nguyen, C. Queenan</h2>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- About the Team -->
-        <section class="authors">
+        <section class="authors border-row m-3">
             <div class="container">
                 <br>
                 <h1 class="text-center about-team text-light font-body">About the Team</h1>
                 <hr class="text-light"><br>
 
                 <!-- Cards organized in 2 x 2 table format -->
-                <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="row">
                     <div class="col">
                         <div class="card about">
                             <img src="img/woman1.jpg" class="card-img-top" alt="Name 1">
@@ -97,44 +77,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card about">
-                            <img src="img/man1.png" class="card-img-top" alt="Name 1">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: BME</h5>
-                                <p class="card-text">Describe in detail the contributions that this team member
-                                    made to the project</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card about">
-                            <img src="img/woman2.jpg" class="card-img-top" alt="Name 1">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: BME</h5>
-                                <p class="card-text">Describe in detail the contributions that this team member
-                                    made to the project</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card about">
-                            <img src="img/man2.jpg" class="card-img-top" alt="Name 1">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: BME</h5>
-                                <p class="card-text">Describe in detail the contributions that this team member
-                                    made to the project</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
+
         <!-- Footer -->
-        <footer class="p-5 footer text-light text-center position-relative">
+        <footer class="p-5 footer text-light text-center position-relative rounded-border m-2">
             <div class="container">
                 <p class="lead">Copyright &copy; SE 2024 Bootstrap Demo</p>
                 <a href="#" class="position-absolute bottom-0 end-0 p-5">
