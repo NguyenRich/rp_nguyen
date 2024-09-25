@@ -153,6 +153,10 @@ tbody td:nth-child(3) {
     animation: fadeInUp 0.75s ease-in-out;
 }
 
+.transition {
+    animation: fadeInUp 0.75s ease-in-out;
+}
+
 @media screen and (max-width: 1000px) {
     .font-response {
         font-size: 2em;
