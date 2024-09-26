@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -26,11 +25,10 @@
     <div class="main-container">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark nb-background-color text-light sticky-top mt-2 rounded-border"
-            ->
+        <nav class="navbar navbar-expand-lg navbar-dark nb-background-color text-light sticky-top mt-2 rounded-border" ->
             <!-- lg = large breakpoint, navbar-light = make text dark -->
             <div class="container">
-                <a href="#" class="navbar-brand">
+                <a href="index.html" class="navbar-brand">
                     <img src="img/red-algae.png" alt="Red Algae Icon" class="d-inline-block align-text-top w-50 img-icon">
                 </a>
 
@@ -60,27 +58,50 @@
             </div>
         </nav>
 
-        <!-- About the Team -->
-        <section class="authors border-row m-3 transition">
+        <!-- References -->
+        <section class="references procedure">
             <div class="container">
                 <br>
-                <h1 class="text-center about-team text-light font-body">About the Team</h1>
-                <hr class="text-light"><br>
-
-                <!-- Cards organized in 2 x 2 table format -->
-                <div class="row">
-                    <div class="col">
-                        <div class="card about">
-                            <img src="img/woman1.jpg" class="card-img-top" alt="Name 1">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: BME</h5>
-                                <p class="card-text">Describe in detail the contributions that this team member
-                                    made to the project</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h1 class="font-body text-center text-white border-row p-5">Image Sources</h1>
+                <br>
+                <table class="table table-bordered text-center table-layout-fixed table-dark border-dark-subtle">    
+                    <thead class="table-primary">
+                        <tr>
+                            <th><h3 class="text-center text-white font-body p-1">Image</h3></th>
+                            <th><h3 class="text-center text-white font-body p-1">Source</h3></th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider text-light align-center">
+                        <tr>
+                            <td class="table-img">
+                                <img src="img/polysiphonia-ocean.jpg" class="img-size-sm" alt="Polysiphonia in the ocean">
+                            </td>
+                            <td>
+                                <p class="howTo text-green average-font p-1">https://www.edmondsunderwaterpark.com/red-algae
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-img">
+                                <img src="img/ocean-acidification.png" class="img-size-sm" alt="Diagram depicting ocean acidifcation">
+                            </td>
+                            <td>
+                                <p class="howTo text-green average-font p-1">https://www.iaea.org/newscenter/news/what-is-ocean-acidification
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-img">
+                                <img src="img/red-algae.png" class="img-size-sm" alt="Red algae icon">
+                            </td>
+                            <td>
+                                <p class="howTo text-green average-font p-1">https://www.freepik.com/premium-vector/beautiful-branch-red-algae-white-background-algae-logo-algae-icon_32983889.htm
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
             </div>
         </section>
 
@@ -93,9 +114,6 @@
                 </a>
             </div>
         </footer>
-    </div>
-
-
     </div>
 </body>
 

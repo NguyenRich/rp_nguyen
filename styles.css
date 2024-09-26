@@ -123,6 +123,10 @@ tbody th.table-secondary {
     background-color: #2f3361;
 }
 
+tbody td:nth-child(1) {
+    background-color: #3b3b6c;
+}
+
 tbody td:nth-child(2) {
     background-color: #313568;
 }
@@ -157,19 +161,39 @@ tbody td:nth-child(3) {
     animation: fadeInUp 0.75s ease-in-out;
 }
 
-@media screen and (max-width: 1000px) {
-    .font-response {
-        font-size: 2em;
-    }
+.procedure-img {
+    max-width: 10rem;
+    height: auto;
 }
 
 li {
     font-size: 1.05rem;
 }
 
-.procedure-img {
-    max-width: 10rem;
+.img-size-sm {
+    max-width: 20rem;
     height: auto;
+}
+
+.img-icon {
+    max-width: 8rem;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .font-response {
+        font-size: 2em;
+    }
+
+    .procedure-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-size-sm {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* ----------------- ID CSS ----------------- */
