@@ -180,6 +180,10 @@ li {
     height: auto;
 }
 
+.average-font {
+    font-size: 1.5em;
+}
+
 @media screen and (max-width: 1000px) {
     .font-response {
         font-size: 2em;
