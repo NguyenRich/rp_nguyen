@@ -2,7 +2,7 @@
 pH values are differences from the initial pH on day 0 with Polysiphonia. */
 
 async function getData() {
-    const response = await fetch('/../data/acidic-ph.csv'); //.. moves up 1 folder
+    const response = await fetch('../../data/acidic-ph.csv'); //.. moves up 1 folder
     const data = await response.text(); // CSV in text format
     // console.log(data);
 
